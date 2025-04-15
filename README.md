@@ -113,21 +113,7 @@ Returns a list of available image generation models.
 
 
 
-Response:
-```javascript
-{
-  "success": true,
-  "filePath": "/path/to/images/my-image.png",
-  "fileName": "my-image.png",
-  "format": "png",
-  "size": 123456,  // in bytes
-  "metadata": {
-    "contentType": "image/png",
-    "lastModified": "Wed, 21 Oct 2025 07:28:00 GMT",
-    "contentLength": "123456"
-  }
-}
-```
+ 
 
 ## Running the Server
 
