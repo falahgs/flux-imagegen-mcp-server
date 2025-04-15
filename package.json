@@ -1,0 +1,29 @@
+{
+  "name": "imagegen-mcp-server",
+  "version": "1.0.0",
+  "description": "A specialized MCP server for image generation powered by Pollinations AI",
+  "main": "pollinations-mcp-server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node pollinations-mcp-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mcp",
+    "image-generation",
+    "ai",
+    "pollinations",
+    "claude",
+    "image-ai"
+  ],
+  "author": "Falah.G.Salieh",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^0.4.0",
+    "node-abort-controller": "^3.1.1",
+    "node-fetch": "^3.3.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}

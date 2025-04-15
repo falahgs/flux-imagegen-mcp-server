@@ -47,7 +47,7 @@ To use this server with Claude Desktop, update your configuration file at:
       "args": [
         "/c",
         "node",
-        "PATH_TO_YOUR_SERVER\\pollinations-mcp-server.js"
+        "PATH_TO_YOUR_SERVER\\server.js"
       ],
       "tools": [
         "generateImageUrl",
@@ -111,16 +111,7 @@ Returns a list of available image generation models.
 }
 ```
 
-### 4. Download Image (`downloadImage`)
-Downloads an image from a URL and saves it to the local images folder.
 
-```javascript
-{
-  "imageUrl": "https://example.com/image.jpg",  // required
-  "fileName": "my-image",                       // optional
-  "format": "png"                              // optional, defaults to 'png'
-}
-```
 
 Response:
 ```javascript
