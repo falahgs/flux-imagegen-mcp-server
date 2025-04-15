@@ -110,16 +110,11 @@ Returns a list of available image generation models.
   ]
 }
 ```
-
-
-
- 
-
 ## Running the Server
 
 ```bash
 # Start the server
-node pollinations-mcp-server.js
+node server.js
 ```
 
 ## Environment Requirements
